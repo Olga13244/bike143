@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: lightslategrey;
+    padding: 5px 10px 5px 10px;
+}
+
+.link-header{
+    background-image: linear-gradient( gold, green);
+    padding: 3px 5px 3px 5px;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.link-header:hover{
+    background-image: linear-gradient(green, gold);
+    transition: 1.5s linear;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.description{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: palegreen;
+    font-size: 100px;
+    box-shadow: 3px 5px 0 0 orange;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 40px 0px;
+}
+
+.link-nav{
+    color: red;
+    font-size: 30px;
+    margin-right: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid palevioletred;
+}
+
+p{
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+ul{
+    font-size: 24px;
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+ol{
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.text-big{
+    font-size: 48px;
+    margin-left: 60px;
+}
+
+.link-text{
+    color: plum;
+    text-decoration: none;
+    border-bottom: 2px solid green;
+}
+
